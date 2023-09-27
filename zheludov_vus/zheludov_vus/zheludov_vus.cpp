@@ -1,6 +1,4 @@
-﻿//test 1
-#include <iostream>
-//test
+﻿#include <iostream>
 int main()
 {
     setlocale(LC_ALL, "RU");
