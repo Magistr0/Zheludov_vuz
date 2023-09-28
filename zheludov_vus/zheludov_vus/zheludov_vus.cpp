@@ -5,15 +5,16 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "RU");
-    std::cout << "Hello World!\n";
+    cout << "Hello World!\n";
     int num;
     char liter;
 
-    std::cout << "Введите символ\n";
-    std::cin >> liter;
+    cout << "Введите символ\n";
+    cin >> liter;
 
-    std::cout << "Введите цифру\n";
-    std::cin >> num;
+    cout << "Введите цифру\n";
+    cin >> num;
 
-    std::cout << "Ваша цифра:" << num << "\n" << "Ваша буква:" << liter;
+    cout << "Ваша цифра:" << num << "\n" << "Ваша буква:" << liter;
+    return 0;
 }
